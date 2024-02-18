@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://assets/istockphoto-1272570822-1024x1024.jpg" type="Texture" id=1]
+[ext_resource path="res://scenes/LevelUpScreen.gd" type="Script" id=2]
+
+[node name="LevelUpScreen" type="Sprite"]
+position = Vector2( 512.249, 300.93 )
+scale = Vector2( 0.995607, 0.931468 )
+texture = ExtResource( 1 )
+script = ExtResource( 2 )
+
+[node name="Continue" type="Button" parent="."]
+margin_left = -106.718
+margin_top = 84.8873
+margin_right = 127.282
+margin_bottom = 167.887
+text = "Continue"
+__meta__ = {
+"_editor_description_": ""
+}
+
+[connection signal="pressed" from="Continue" to="." method="_on_Continue_pressed"]

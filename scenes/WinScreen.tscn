@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://assets/istockphoto-1272570848-1024x1024.jpg" type="Texture" id=1]
+
+[node name="WinScreen" type="Sprite"]
+position = Vector2( 513.5, 300 )
+scale = Vector2( 1.00098, 0.869186 )
+texture = ExtResource( 1 )
